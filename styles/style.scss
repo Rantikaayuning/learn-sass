@@ -1,0 +1,15 @@
+$primaryColor: lightblue;
+$secondaryColor: rgb(207, 114, 114);
+
+header {
+    background: $primaryColor;
+    h1 {
+        font-size: 25px;
+    }
+}
+
+.info {
+    p {
+        color: $secondaryColor;
+    }
+}
