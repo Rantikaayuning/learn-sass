@@ -1,17 +1,5 @@
 @import 'modules/mixin';
 @import 'modules/header';
+@import 'modules/container';
 @import 'modules/footer';
 
-.container {
-  @include flex-box(row-reverse, space-around);
-  width: 600px;
-  height: 400px;
-  background-color: lightcyan;
-  .box {
-    width: 60px;
-    height: 60px;
-    background-color: lightgray;
-    text-align: center;
-    line-height: 60px;
-  }
-}
