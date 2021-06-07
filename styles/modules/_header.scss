@@ -1,0 +1,8 @@
+.header ul {
+  @include inline-list();
+  li {
+    background-color: lightpink;
+    padding: 1em;
+    color: brown;
+  }
+}
