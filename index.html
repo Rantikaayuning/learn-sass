@@ -1,47 +1,63 @@
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SASS</title>
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-    <header>
-        <h1>Sass Project</h1>
-    </header>
-    <div class="contact">
-        <button>Submit</button>
-        <div class="info">
-            <h1>Trial Sass/Scss</h1>
-            <p>here is the output</p>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Sass Lesson</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent custom-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.png" alt="">
+          <span>RA</span>
+        </a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <div class="signup">
+                <button type="button" class="btn btn-outline-dark">Signup</button>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div class="header">
-            <ul>
-                <li>one</li>
-                <li>two</li>
-                <li>three</li>
-                <li>four</li>
-                <li>five</li>
-            </ul>
-            <br>
-            <div class="container">
-                <div class="box">box 1</div>
-                <div class="box">box 2</div>
-                <div class="box">box 3</div>
-            </div>
-        </div>
-        <br>
-        <div class="footer">
-            <ul>
-                <li>satu</li>
-                <li>dua</li>
-                <li>tiga</li>
-                <li>empat</li>
-                <li>lima</li>
-            </ul>
-        </div>
+      </div>
+    </nav>
+
+    <div class="desc">
+      <h3>ONLINE LEARNING!</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto quis nemo laudantium ullam laborum expedita!</p>
+      <span>
+        <button type="button" class="btn btn-info">Read More</button>
+      </span>
     </div>
 
-</body>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
